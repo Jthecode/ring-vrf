@@ -22,7 +22,7 @@ ark-serialize.workspace = true
 ring = { git = "https://github.com/w3f/ring-proof", rev = "665f5f5" }
 
 # Replaces former "fflonk" dependency with your forked crate "w3f-pcs"
-w3f-pcs = { git = "https://github.com/Jthecode/fflonk", rev = "fa3669ee2360785b5fcfbe7e4a2245bd18d0b8ef", default-features = false }
+w3f_pcs = { git = "https://github.com/Jthecode/fflonk", rev = "fa3669ee2360785b5fcfbe7e4a2245bd18d0b8ef", default-features = false }
 
 # In these three, add optional = true here only if we create some related curves trait.
 ark-ed-on-bls12-381-bandersnatch = { version = "0.4", default-features = false }
